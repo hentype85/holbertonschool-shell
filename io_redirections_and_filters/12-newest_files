@@ -1,2 +1,2 @@
 #!/bin/bash
-head -t 10 .
+head -n 10 ./*
