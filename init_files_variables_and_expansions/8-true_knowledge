@@ -1,2 +1,2 @@
 #!/bin/bash
-SUMA=$(($TiRUEKNOWLEDGE + 128))
+echo $(($TiRUEKNOWLEDGE + 128))
