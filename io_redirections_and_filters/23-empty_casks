@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty  
+find . -empty -d '/' -f 1 | rev  
