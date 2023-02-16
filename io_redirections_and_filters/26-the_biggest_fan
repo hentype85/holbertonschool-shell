@@ -1,2 +1,2 @@
 #!/bin/bash
-tr a A | sort -r
+tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -n -r | head -n 11 | cut -b 9-
